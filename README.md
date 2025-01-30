@@ -5,10 +5,19 @@
 Welcome to the **Flutter News App**, a powerful and efficient way to stay updated with the latest news from around the world. This app is designed to provide users with a seamless news reading experience, offering a wide range of features to enhance user engagement and satisfaction.
 
 ### Key Features:
+
 - **Real-Time Updates**: Stay informed with the latest news as it happens, thanks to our real-time news feed.
 - **Categorized News**: Easily navigate through different categories such as Politics, Sports, Technology, Entertainment, and more.
 - **User-Friendly Interface**: Enjoy a clean and intuitive interface that makes reading news enjoyable and hassle-free.
 - **Customizable Notifications**: Receive notifications for the categories you care about the most.
+
+---
+
+## Screenshots
+
+![Screenshot 1](https://github.com/gray-television/flutter-app-2.0/assets/171088610/b1374f03-046b-4971-a294-dc466ed7502e)
+
+![Screenshot 2](https://github.com/gray-television/flutter-app-2.0/assets/171088610/cbcb6ba3-a45b-4a28-9ccc-d7e8bf143db1)
 
 ---
 
@@ -20,11 +29,11 @@ Follow these steps to set up and run the project:
 
 Ensure you have the following tools and versions installed:
 
-- **Java JDK version**: 17  
-- **Android Studio**: Latest version  
-- **Xcode**: Latest version (for macOS users)  
-- **Dart version**: 3.5.4  
-- **Flutter SDK version**: 3.24.5  
+- **Java JDK version**: 17
+- **Android Studio**: Latest version
+- **Xcode**: Latest version (for macOS users)
+- **Dart version**: 3.5.4
+- **Flutter SDK version**: 3.24.5
 
 ---
 
@@ -37,14 +46,16 @@ Ensure you have the following tools and versions installed:
    [Oracle JDK 17 Downloads](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 
 2. **Install JDK 17**:
+
    - Run the downloaded installer.
    - Follow the on-screen instructions to complete the installation.
 
 3. **Set up Environment Variables**:
+
    - Open the **Start Menu**, search for "Environment Variables," and click on **Edit the system environment variables**.
    - In the **System Properties** window, click **Environment Variables**.
    - Under "System variables," click **New** and add:
-     - **Variable Name**: `JAVA_HOME`  
+     - **Variable Name**: `JAVA_HOME`
      - **Variable Value**: Path to the JDK installation directory (e.g., `C:\Program Files\Java\jdk-17`).
    - Locate the **Path** variable, click **Edit**, and add `%JAVA_HOME%\bin`.
    - Click **OK** to save the changes.
@@ -65,9 +76,11 @@ Ensure you have the following tools and versions installed:
    [Oracle JDK 17 Downloads](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 
 2. **Install JDK 17**:
+
    - Open the downloaded `.dmg` file and follow the instructions to install JDK 17.
 
 3. **Set up JDK Path**:
+
    - Open a terminal and run the following commands:
      ```bash
      export JAVA_HOME=$(/usr/libexec/java_home -v 17)
@@ -78,6 +91,7 @@ Ensure you have the following tools and versions installed:
 
 4. **Configure Flutter**:
    Run the following command to configure Flutter to use JDK 17:
+
    ```bash
    flutter config --jdk-dir "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
    ```
@@ -94,6 +108,7 @@ Ensure you have the following tools and versions installed:
 ## Setup Instructions
 
 ### Step 1: Clean the Project
+
 Run the following command to clean the project:
 
 ```bash
@@ -101,6 +116,7 @@ flutter clean
 ```
 
 ### Step 2: Get Dependencies
+
 Run the following command to fetch the dependencies:
 
 ```bash
@@ -108,6 +124,7 @@ flutter pub get
 ```
 
 ### Step 3: Run the Project
+
 Run the following command to start the project with a specific flavor:
 
 ```bash
