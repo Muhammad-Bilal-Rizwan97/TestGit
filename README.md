@@ -13,14 +13,6 @@ Welcome to the **Flutter News App**, a powerful and efficient way to stay update
 
 ---
 
-## Screenshots
-
-![Screenshot 1](https://github.com/gray-television/flutter-app-2.0/assets/171088610/b1374f03-046b-4971-a294-dc466ed7502e)
-
-![Screenshot 2](https://github.com/gray-television/flutter-app-2.0/assets/171088610/cbcb6ba3-a45b-4a28-9ccc-d7e8bf143db1)
-
----
-
 ## Installation
 
 Follow these steps to set up and run the project:
